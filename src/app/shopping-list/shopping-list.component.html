@@ -1,0 +1,9 @@
+<app-shopping-list-edit class="" ></app-shopping-list-edit>
+<div class="list-group row"  *ngFor="let item of ingredients;let i =index">
+    <a class="list-group-item list-group-item-action col-3" (click)="onEditting(i)">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{item.name}}</h5>
+        </div>
+        <p class="mb-1">{{item.amount}}</p>
+    </a>
+</div>

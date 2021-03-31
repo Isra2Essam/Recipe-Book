@@ -1,0 +1,5 @@
+<button (click)="onAddingRecipe()" class="btn btn-success">Add +</button>
+<br><br>
+<app-reciepe-item class="list-group" *ngFor="let item of recipes;let i=index"
+ [index]="i" [items]="item">
+</app-reciepe-item>
