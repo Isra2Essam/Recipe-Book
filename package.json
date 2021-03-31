@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href https://Isra2Essam.github.io/Recipe-Book/ && angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +20,7 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "rxjs": "~6.6.0",
