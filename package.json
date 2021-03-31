@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://Isra2Essam.github.io/Recipe-Book/ && angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href https://isra2essam.github.io/Recipe-Book/ && angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
